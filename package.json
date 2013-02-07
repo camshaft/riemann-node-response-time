@@ -1,6 +1,6 @@
 {
   "name": "riemann-response-time",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Send response times to Riemann",
   "main": "index.js",
   "directories": {
@@ -16,6 +16,9 @@
   "author": "Cameron Bytheway <cameron@theflokk.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
+  "dependencies": {
+    "simple-riemann": "~0.4.0"
+  },
   "devDependencies": {
     "startup": "~0.1.2",
     "express": "~3.1.0",
